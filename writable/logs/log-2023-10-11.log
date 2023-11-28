@@ -1,0 +1,36 @@
+ERROR - 2023-10-11 08:14:28 --> Unknown column 'kandang.tanggal_byr' in 'where clause'
+CRITICAL - 2023-10-11 08:14:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(1374): App\Models\M_model->filter2('kandang', '', '')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->cari_c()
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-11 08:14:35 --> Unknown column 'kandang.tanggal' in 'where clause'
+CRITICAL - 2023-10-11 08:14:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(1473): App\Models\M_model->filter3('kandang', '', '')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->pdf_c()
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-11 08:14:57 --> Unknown column 'kandang.tanggal' in 'where clause'
+CRITICAL - 2023-10-11 08:14:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(1374): App\Models\M_model->filter2('kandang', '', '')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->cari_c()
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-11 08:15:34 --> Unknown column 'kandang.tanggal' in 'where clause'
+CRITICAL - 2023-10-11 08:15:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(1473): App\Models\M_model->filter3('kandang', '', '')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->pdf_c()
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

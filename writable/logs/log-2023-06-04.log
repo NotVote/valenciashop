@@ -1,0 +1,100 @@
+ERROR - 2023-06-04 03:23:46 --> Unknown column 'id_siswa' in 'where clause'
+ERROR - 2023-06-04 03:23:48 --> Unknown column 'id_siswa' in 'where clause'
+ERROR - 2023-06-04 03:30:49 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:31:48 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:32:15 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:34:02 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:35:14 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:37:15 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:38:04 --> Column 'jurusan' cannot be null
+ERROR - 2023-06-04 03:54:50 --> Column 'Nama' cannot be null
+CRITICAL - 2023-06-04 04:10:56 --> Call to undefined function mysql_query()
+#0 C:\xampp\htdocs\Ja\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#3 C:\xampp\htdocs\Ja\app\Controllers\Home.php(241): view('edit_siswa', Array)
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('1')
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-04 04:30:43 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\tambah_senin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('tambah_senin', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(316): view('tambah_senin', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-04 04:31:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\tambah_senin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('tambah_senin', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(316): view('tambah_senin', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-04 04:32:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\tambah_senin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('tambah_senin', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(316): view('tambah_senin', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-06-04 05:29:48 --> Column 'Nama' cannot be null
+ERROR - 2023-06-04 05:30:37 --> Column 'Nama' cannot be null
+ERROR - 2023-06-04 05:32:26 --> Column 'Nama' cannot be null
+ERROR - 2023-06-04 05:36:59 --> Can't update table 'daftar' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+ERROR - 2023-06-04 05:58:50 --> Column 'Jurusan' cannot be null
+CRITICAL - 2023-06-04 06:02:05 --> Cannot redeclare App\Controllers\Home::aksi_kajur()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-06-04 06:05:32 --> Column 'Jurusan' cannot be null
+ERROR - 2023-06-04 06:06:18 --> Column 'Jurusan' cannot be null
+ERROR - 2023-06-04 06:07:54 --> Table 'jadwal.tambah_d' doesn't exist
+CRITICAL - 2023-06-04 06:07:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(67): App\Models\M_model->tampil('tambah_d')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_d()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-06-04 06:09:42 --> Column 'Jurusan' cannot be null
+ERROR - 2023-06-04 06:10:41 --> Column 'Jurusan' cannot be null
+CRITICAL - 2023-06-04 06:55:51 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-06-04 06:56:07 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

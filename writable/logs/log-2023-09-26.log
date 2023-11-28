@@ -1,0 +1,65 @@
+CRITICAL - 2023-09-26 19:53:24 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:53:48 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:51 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:52 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:52 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:53 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:53 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 19:54:58 --> Cannot redeclare App\Controllers\Home::dokter()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-26 20:16:34 --> Too few arguments to function App\Controllers\Home::hapus_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->hapus_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-09-26 20:38:49 --> Table 'klinik.poliklinik' doesn't exist
+CRITICAL - 2023-09-26 20:38:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(341): App\Models\M_model->tampil('poliklinik')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->poliklinik()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 20:39:19 --> Table 'klinik.poliklinik' doesn't exist
+CRITICAL - 2023-09-26 20:39:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(341): App\Models\M_model->tampil('poliklinik')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->poliklinik()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-26 20:43:05 --> Table 'klinik.poliklinik' doesn't exist
+CRITICAL - 2023-09-26 20:43:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(341): App\Models\M_model->tampil('poliklinik')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->poliklinik()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-26 20:48:13 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

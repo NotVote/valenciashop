@@ -1,0 +1,55 @@
+CRITICAL - 2023-08-01 04:04:43 --> file_get_contents(C:\xampp\htdocs\in\public\images\kop.jpeg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1223, Array)
+#1 C:\xampp\htdocs\in\app\Controllers\Home.php(1223): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->pdf_c()
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-01 04:14:48 --> file_get_contents(C:\xampp\htdocs\in\public\images\kop.jpeg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1138, Array)
+#1 C:\xampp\htdocs\in\app\Controllers\Home.php(1138): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-08-01 04:30:04 --> Column 'kode_barang' cannot be null
+CRITICAL - 2023-08-01 04:41:48 --> Too few arguments to function App\Controllers\Home::hapus_user(), 0 passed in C:\xampp\htdocs\in\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->hapus_user()
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-01 04:44:18 --> Too few arguments to function App\Controllers\Home::edit_bk(), 0 passed in C:\xampp\htdocs\in\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_bk()
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-01 04:53:50 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\in\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/user')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/user')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-01 21:04:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(613): CodeIgniter\Model->__call('join', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-01 21:25:11 --> Column 'nama_barang' cannot be null
+ERROR - 2023-08-01 21:26:06 --> Column 'id_barang' cannot be null
+ERROR - 2023-08-01 21:26:20 --> Column 'id_barang' cannot be null
+ERROR - 2023-08-01 21:27:26 --> Column 'id_barang' cannot be null

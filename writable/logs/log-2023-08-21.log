@@ -1,0 +1,52 @@
+ERROR - 2023-08-21 08:03:25 --> Table 'hotel.rombel' doesn't exist
+CRITICAL - 2023-08-21 08:03:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\booking\app\Controllers\Home.php(18): App\Models\M_model->tampil('rombel')
+#1 C:\xampp\htdocs\booking\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\booking\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\booking\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\booking\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\booking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 08:13:54 --> Table 'hotel.rombel' doesn't exist
+CRITICAL - 2023-08-21 08:13:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\booking\app\Controllers\Home.php(18): App\Models\M_model->tampil('rombel')
+#1 C:\xampp\htdocs\booking\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\booking\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\booking\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\booking\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\booking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 08:13:56 --> Table 'hotel.rombel' doesn't exist
+CRITICAL - 2023-08-21 08:13:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\booking\app\Controllers\Home.php(18): App\Models\M_model->tampil('rombel')
+#1 C:\xampp\htdocs\booking\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\booking\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\booking\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\booking\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\booking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 08:14:35 --> Table 'hotel.rombel' doesn't exist
+CRITICAL - 2023-08-21 08:14:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\booking\app\Controllers\Home.php(18): App\Models\M_model->tampil('rombel')
+#1 C:\xampp\htdocs\booking\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\booking\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\booking\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\booking\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\booking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-21 08:14:42 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\booking\app\Views\kamar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\booking\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\booking\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\booking\system\Common.php(1089): CodeIgniter\View\View->render('kamar', Array, true)
+#4 C:\xampp\htdocs\booking\app\Controllers\Home.php(79): view('kamar', Array)
+#5 C:\xampp\htdocs\booking\system\CodeIgniter.php(832): App\Controllers\Home->kamar()
+#6 C:\xampp\htdocs\booking\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\booking\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\booking\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\booking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-21 08:43:20 --> Cannot redeclare App\Controllers\Home::edit_kamar()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-21 08:43:52 --> Unknown column 'tgl_in' in 'field list'

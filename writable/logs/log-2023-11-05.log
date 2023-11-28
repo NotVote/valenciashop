@@ -1,0 +1,28 @@
+CRITICAL - 2023-11-05 21:37:52 --> Invalid file: barangmasuk.php
+#0 C:\xampp\htdocs\acc\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barangmasuk.php')
+#1 C:\xampp\htdocs\acc\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk', Array, true)
+#2 C:\xampp\htdocs\acc\app\Controllers\Home.php(271): view('barangmasuk', Array)
+#3 C:\xampp\htdocs\acc\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#4 C:\xampp\htdocs\acc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\acc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\acc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\acc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-11-05 21:42:58 --> Unknown column 'barang.tgl_masuk' in 'where clause'
+CRITICAL - 2023-11-05 21:42:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\acc\app\Controllers\Home.php(803): App\Models\M_model->filter3('barang', '2023-11-01', '2023-11-06')
+#1 C:\xampp\htdocs\acc\system\CodeIgniter.php(832): App\Controllers\Home->cari_p()
+#2 C:\xampp\htdocs\acc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-11-05 22:02:08 --> Unknown column 'barang.tgl_masuk' in 'where clause'
+CRITICAL - 2023-11-05 22:02:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\acc\app\Controllers\Home.php(786): App\Models\M_model->filter2('barang', '', '')
+#1 C:\xampp\htdocs\acc\system\CodeIgniter.php(832): App\Controllers\Home->cari_bm()
+#2 C:\xampp\htdocs\acc\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\acc\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\acc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\acc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,32 @@
+CRITICAL - 2023-08-09 09:34:11 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\in\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\in\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-08-09 09:34:28 --> Table 'inventaris.users' doesn't exist
+CRITICAL - 2023-08-09 09:34:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(17): App\Models\M_model->tampil('users')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-09 10:14:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\in\app\Views\cp.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\in\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\in\system\Common.php(1089): CodeIgniter\View\View->render('cp', Array, true)
+#4 C:\xampp\htdocs\in\app\Controllers\Home.php(1318): view('cp', Array)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->pdf_c()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

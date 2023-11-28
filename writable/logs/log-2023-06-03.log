@@ -1,0 +1,29 @@
+CRITICAL - 2023-06-03 03:57:07 --> Class 'App\Controllers\M_pj' not found
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-06-03 04:00:41 --> Column 'Nomor_Handphone' cannot be null
+ERROR - 2023-06-03 04:02:13 --> Column 'Nama' cannot be null
+ERROR - 2023-06-03 04:02:19 --> Table 'jadwal.barang' doesn't exist
+ERROR - 2023-06-03 05:03:19 --> Column 'Nama' cannot be null
+ERROR - 2023-06-03 07:15:23 --> Column 'Nama' cannot be null
+ERROR - 2023-06-03 07:19:34 --> Table 'jadwal.barang' doesn't exist
+ERROR - 2023-06-03 07:21:30 --> Column 'Nama' cannot be null
+ERROR - 2023-06-03 07:30:08 --> Can't update table 'daftar' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+ERROR - 2023-06-03 07:37:14 --> Can't update table 'daftar' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+ERROR - 2023-06-03 07:39:31 --> Column 'Nama' cannot be null
+ERROR - 2023-06-03 07:44:43 --> Column 'nama_kajur' cannot be null
+ERROR - 2023-06-03 08:16:31 --> Can't update table 'daftar' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+CRITICAL - 2023-06-03 08:36:38 --> syntax error, unexpected ''Tempat_Lahir'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/daftar')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/daftar')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-06-03 08:37:16 --> Can't update table 'daftar' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+ERROR - 2023-06-03 09:00:59 --> Column 'Nama' cannot be null

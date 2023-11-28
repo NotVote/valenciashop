@@ -1,0 +1,43 @@
+CRITICAL - 2023-09-30 07:56:01 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-30 07:58:14 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-30 07:58:14 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-30 08:01:56 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-30 08:02:18 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-30 08:43:32 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/polikklini...')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/polikklini...')
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

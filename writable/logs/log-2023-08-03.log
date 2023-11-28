@@ -1,0 +1,125 @@
+ERROR - 2023-08-03 08:14:46 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:14:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'guru', 'kelas', 'rombel.jurusan=...', 'rombel.guru=gur...', 'rombel.kelas=ke...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-03 08:16:14 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\in\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\in\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\in\app\Controllers\Home.php(259): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-08-03 08:16:18 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:16:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'guru', 'kelas', 'rombel.jurusan=...', 'rombel.guru=gur...', 'rombel.kelas=ke...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-03 08:18:17 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:18:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'kelas', 'guru', 'rombel.jurusan=...', 'rombel.kelas=ke...', 'rombel.guru=gur...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-03 08:25:42 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:25:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'kelas', 'guru', 'rombel.jurusan=...', 'rombel.kelas=ru...', 'rombel.guru=gur...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-03 08:25:46 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:25:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'kelas', 'guru', 'rombel.jurusan=...', 'rombel.kelas=ru...', 'rombel.guru=gur...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-03 08:33:06 --> Table 'inventaris.kelas' doesn't exist
+CRITICAL - 2023-08-03 08:33:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(263): App\Models\M_model->join3('rombel', 'jurusan', 'kelas', 'guru', 'rombel.jurusan=...', 'rombel.kelas=ru...', 'rombel.guru=gur...')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-03 08:35:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\in\app\Views\tambah_rombel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\in\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\in\system\Common.php(1089): CodeIgniter\View\View->render('tambah_rombel', Array, true)
+#4 C:\xampp\htdocs\in\app\Controllers\Home.php(301): view('tambah_rombel', Array)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->tambah_rombel()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 08:36:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\in\app\Views\tambah_rombel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\in\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\in\system\Common.php(1089): CodeIgniter\View\View->render('tambah_rombel', Array, true)
+#4 C:\xampp\htdocs\in\app\Controllers\Home.php(301): view('tambah_rombel', Array)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->tambah_rombel()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 08:40:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\in\app\Views\tambah_rombel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\in\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\in\system\Common.php(1089): CodeIgniter\View\View->render('tambah_rombel', Array, true)
+#4 C:\xampp\htdocs\in\app\Controllers\Home.php(301): view('tambah_rombel', Array)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->tambah_rombel()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-03 08:44:32 --> Column 'jurusan' cannot be null
+ERROR - 2023-08-03 09:07:10 --> Column 'jurusan' cannot be null
+ERROR - 2023-08-03 09:08:48 --> Column 'jurusan' cannot be null
+ERROR - 2023-08-03 09:13:08 --> Column 'jurusan' cannot be null
+ERROR - 2023-08-03 09:14:29 --> Column 'jurusan' cannot be null
+ERROR - 2023-08-03 19:05:55 --> Unknown column 'id_rombel' in 'where clause'
+CRITICAL - 2023-08-03 19:05:55 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(349): App\Models\M_model->getRow('guru', Array)
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('10')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-03 19:30:50 --> Unknown column 'id_guru' in 'where clause'
+ERROR - 2023-08-03 19:33:27 --> Unknown column 'id_rombel' in 'where clause'
+CRITICAL - 2023-08-03 19:33:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\in\app\Controllers\Home.php(349): App\Models\M_model->getWhere('guru', Array)
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('11')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,224 @@
+ERROR - 2023-05-30 08:20:52 --> Error connecting to the database: Unknown database 'cidonasi'
+CRITICAL - 2023-05-30 08:20:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cidonasi'
+#0 C:\xampp\htdocs\Ja\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Ja\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Ja\app\Models\M_model.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Ja\app\Controllers\Home.php(167): App\Models\M_model->tampil('daftar')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->daftar()
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-30 08:21:15 --> Invalid file: daftar.php
+#0 C:\xampp\htdocs\Ja\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('daftar.php')
+#1 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('daftar', Array, true)
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(170): view('daftar', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->daftar()
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-30 08:21:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\daftar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('daftar', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(170): view('daftar', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->daftar()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-30 08:22:14 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\daftar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('daftar', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(170): view('daftar', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->daftar()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-30 08:36:33 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 08:36:43 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 08:36:47 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 08:37:00 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-30 08:46:45 --> Column 'Nomor_Handphone' cannot be null
+ERROR - 2023-05-30 08:46:49 --> Column 'Nomor_Handphone' cannot be null
+ERROR - 2023-05-30 08:47:45 --> Column 'Nomor_Handphone' cannot be null
+CRITICAL - 2023-05-30 09:00:17 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 09:00:47 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/input_daft...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/input_daft...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 09:01:05 --> Too few arguments to function App\Controllers\Home::delete_donasi(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->delete_donasi()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 09:07:21 --> Too few arguments to function App\Controllers\Home::delete_donasi(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->delete_donasi()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 09:08:55 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/delete_don...')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/delete_don...')
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-30 09:11:09 --> Column 'Nomor_Handphone' cannot be null
+ERROR - 2023-05-30 09:26:58 --> Column 'Nomor_Handphone' cannot be null
+CRITICAL - 2023-05-30 20:30:08 --> Invalid file: user.php
+#0 C:\xampp\htdocs\Ja\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(259): view('user', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-05-30 20:41:13 --> Table 'jadwal.kajurs' doesn't exist
+CRITICAL - 2023-05-30 20:41:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(266): App\Models\M_model->tampil('kajurs')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->kajur()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-30 20:41:19 --> Table 'jadwal.kajurs' doesn't exist
+CRITICAL - 2023-05-30 20:41:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(266): App\Models\M_model->tampil('kajurs')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->kajur()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-30 20:41:39 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\kajur.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('kajur', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(269): view('kajur', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->kajur()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-30 20:47:28 --> Column 'Nomor_Handphone' cannot be null
+ERROR - 2023-05-30 20:47:38 --> Column 'Nomor_Handphone' cannot be null
+CRITICAL - 2023-05-30 21:03:31 --> Too few arguments to function App\Controllers\Home::hapus_kajur(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->hapus_kajur()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:04:27 --> Too few arguments to function App\Controllers\Home::hapus_kajur(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->hapus_kajur()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:04:55 --> Too few arguments to function App\Controllers\Home::hapus_kajur(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->hapus_kajur()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:05:44 --> Too few arguments to function App\Controllers\Home::hapus_kajur(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->hapus_kajur()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:06:22 --> Too few arguments to function App\Controllers\Home::hapus_kajur(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->hapus_kajur()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:09:10 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Ja\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-30 21:13:06 --> Call to undefined method App\Controllers\Home::checkAuth()
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-30 21:16:56 --> Call to undefined method App\Controllers\Home::checkAuth()
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

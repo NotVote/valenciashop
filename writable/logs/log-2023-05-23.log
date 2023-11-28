@@ -1,0 +1,465 @@
+CRITICAL - 2023-05-23 09:17:37 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:18:32 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:19:31 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:19:47 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:19:48 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:19:49 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:19:49 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:20:52 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:20:59 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:22:21 --> Too few arguments to function App\Controllers\Home::edit_d(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_d()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-05-23 09:22:30 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-05-23 09:34:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:37:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:37:23 --> Too few arguments to function App\Controllers\Home::edit_siswa(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:38:09 --> Too few arguments to function App\Controllers\Home::edit_siswa(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:38:12 --> Too few arguments to function App\Controllers\Home::edit_siswa(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:38:16 --> Too few arguments to function App\Controllers\Home::edit_siswa(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:39:06 --> Too few arguments to function App\Controllers\Home::edit_siswa(), 0 passed in C:\xampp\htdocs\Ja\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa()
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-23 09:39:10 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:39:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('1')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:40:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('1')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:40:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:41:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:43:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(177): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_kajur('10')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:49:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('6')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:52:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('6')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:58:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(177): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_kajur('1')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 09:59:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(177): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_kajur('3')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-05-23 09:59:55 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 09:59:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(290): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 10:10:11 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 10:10:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(290): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 10:11:23 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 10:11:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(312): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 10:11:23 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 10:11:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(312): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-23 10:11:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\Ja\app\Views\jadwal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\Ja\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Ja\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Ja\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#4 C:\xampp\htdocs\Ja\app\Controllers\Home.php(315): view('jadwal', Array)
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#6 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-23 10:16:07 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 10:16:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(290): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 11:22:00 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 11:22:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(303): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 11:23:36 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 11:23:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(303): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 11:50:35 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 11:50:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:01:27 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:01:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:01:30 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:01:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:02:22 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:02:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:02:24 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:02:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:02:46 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:02:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:02:49 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:02:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(360): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->input_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:05:22 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:05:22 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:10:34 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:10:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:10:37 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:10:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:10:56 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:10:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-23 12:12:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): CodeIgniter\Model->__call('tampil1', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-05-23 12:12:47 --> Table 'jadwal.senin' doesn't exist
+CRITICAL - 2023-05-23 12:12:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Ja\app\Controllers\Home.php(357): App\Models\M_model->tampil('senin')
+#1 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->tambah_senin()
+#2 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-05-23 12:19:38 --> Column 'id_kajur' cannot be null
+ERROR - 2023-05-23 12:21:30 --> Column 'id_daftar' cannot be null
+ERROR - 2023-05-23 12:25:16 --> Column 'id_daftar' cannot be null
+ERROR - 2023-05-23 12:27:32 --> Column 'id_daftar' cannot be null
+ERROR - 2023-05-23 12:28:46 --> Column 'id_daftar' cannot be null
+ERROR - 2023-05-23 12:29:05 --> Column 'id_daftar' cannot be null
+CRITICAL - 2023-05-23 12:29:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(177): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_kajur('12')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 12:31:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('6')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 12:31:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('6')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-23 12:32:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\Ja\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\Ja\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\Ja\app\Controllers\Home.php(225): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\Ja\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('1')
+#4 C:\xampp\htdocs\Ja\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Ja\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Ja\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Ja\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

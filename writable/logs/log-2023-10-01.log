@@ -1,0 +1,484 @@
+CRITICAL - 2023-10-01 05:21:57 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/polikklini...')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/polikklini...')
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 05:21:57 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/polikklini...')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/polikklini...')
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 05:49:26 --> Column 'spesialis' cannot be null
+ERROR - 2023-10-01 05:50:23 --> Column 'spesialis' cannot be null
+ERROR - 2023-10-01 06:25:45 --> Column 'spesialis' cannot be null
+CRITICAL - 2023-10-01 06:51:30 --> syntax error, unexpected '$on' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\klinik\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambah_dok...')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambah_dok...')
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 06:52:11 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 06:52:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(195): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 06:53:37 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 06:53:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(196): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 06:53:41 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 06:53:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(196): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 07:55:55 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 07:55:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(197): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 07:56:43 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_dokter', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(200): view('tambah_dokter', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-10-01 07:57:03 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 07:57:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(197): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 07:57:34 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 07:57:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(197): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 07:57:37 --> Table 'klinik.kode_plk' doesn't exist
+CRITICAL - 2023-10-01 07:57:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(197): App\Models\M_model->tampil('kode_plk')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 07:57:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_dokter', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(200): view('tambah_dokter', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-01 07:58:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_dokter', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(200): view('tambah_dokter', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-01 07:59:20 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_dokter', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(200): view('tambah_dokter', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_dokter()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-01 08:11:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_resep.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_resep', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(717): view('tambah_resep', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_resep()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-01 08:28:08 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_resep.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_resep', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(720): view('tambah_resep', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_resep()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-01 08:42:38 --> Too few arguments to function App\Controllers\Home::hapus_resep(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->hapus_resep()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-10-01 09:14:08 --> Column 'kode_obat' cannot be null
+CRITICAL - 2023-10-01 09:49:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_pembayaran.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_pembayar...', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(834): view('tambah_pembayar...', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pembayaran()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-10-01 10:05:33 --> Unknown column 'tgl_byr' in 'field list'
+ERROR - 2023-10-01 10:05:33 --> Unknown column 'resep.kode_psn' in 'on clause'
+CRITICAL - 2023-10-01 10:05:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(818): App\Models\M_model->join('pembayaran', 'pasien', 'resep.kode_psn=...')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:06:27 --> Unknown column 'tgl_byr' in 'field list'
+ERROR - 2023-10-01 10:13:55 --> Unknown column 'tgl_byr' in 'field list'
+ERROR - 2023-10-01 10:16:23 --> Unknown column 'tgl_byr' in 'field list'
+ERROR - 2023-10-01 10:17:40 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2023-10-01 10:19:17 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2023-10-01 10:22:51 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2023-10-01 10:23:58 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2023-10-01 10:25:45 --> Unknown column 'tgl_byr' in 'field list'
+CRITICAL - 2023-10-01 10:29:07 --> Invalid file: menu.php
+#0 C:\xampp\htdocs\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\klinik\app\Controllers\Home.php(944): view('menu', Array)
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->laporan_pembayaran()
+#4 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-01 10:31:35 --> Unknown column '2023-10-01' in 'where clause'
+CRITICAL - 2023-10-01 10:31:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(959): App\Models\M_model->filter('pembayaran', '2023-10-01', '2023-10-31')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:31:49 --> Unknown column '2023-10-01' in 'where clause'
+CRITICAL - 2023-10-01 10:31:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(979): App\Models\M_model->filter('pembayaran', '2023-10-01', '2023-10-29')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pdf_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:35:58 --> Unknown column '2023-10-01' in 'where clause'
+CRITICAL - 2023-10-01 10:35:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(972): App\Models\M_model->filter('pembayaran', '2023-10-01', '2023-10-29')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pdf_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:36:02 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:36:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '2023-10-01', '2023-10-31')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:36:17 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:36:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '2023-10-01', '2023-10-31')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 10:36:19 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 941
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(941): view('filter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->laporan_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 10:36:23 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 941
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(941): view('filter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->laporan_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:36:46 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:36:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:39:27 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:39:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:40:05 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:40:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:42:47 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:42:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:42:49 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:42:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:45:29 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:45:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(995): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->excel_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:45:33 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:45:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(972): App\Models\M_model->filter3('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pdf_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:47:10 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:47:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:47:30 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:47:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter3('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:47:33 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:47:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter3('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 10:50:25 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 10:50:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 20:54:04 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 20:54:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '2023-10-01', '2023-10-02')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 21:00:34 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 21:00:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '2023-10-01', '2023-10-02')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 21:00:38 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 21:00:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(972): App\Models\M_model->filter3('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pdf_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 21:00:41 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 21:00:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(995): App\Models\M_model->filter2('pembayaran', '', '')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->excel_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 21:01:19 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 21:01:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(956): App\Models\M_model->filter2('pembayaran', '2023-10-01', '2023-10-02')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->cari_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-01 21:10:36 --> Unknown column 'pembayaran.tanggal' in 'where clause'
+CRITICAL - 2023-10-01 21:10:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(972): App\Models\M_model->filter3('pembayaran', '2023-10-01', '2023-10-02')
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->pdf_pembayaran()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 21:38:29 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\klinik\app\Views\tambah_pendaftaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('tambah_pendafta...', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\Home.php(940): view('tambah_pendafta...', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->tambah_pendaftaran()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-10-01 21:40:38 --> Column 'jumlah_byr' cannot be null
+ERROR - 2023-10-01 21:45:16 --> Unknown column 'tanggal_pendf' in 'field list'
+CRITICAL - 2023-10-01 21:55:04 --> Too few arguments to function App\Controllers\Home::edit_detail(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->edit_detail()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-01 21:56:42 --> Too few arguments to function App\Controllers\Home::hapus_pasien(), 0 passed in C:\xampp\htdocs\klinik\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->hapus_pasien()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-01 22:05:21 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 185
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(185): view('dokter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 22:08:51 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 185
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(185): view('dokter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 22:09:01 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 185
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(185): view('dokter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-01 22:12:05 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\klinik\app\Controllers\Home.php on line 186
+#0 C:\xampp\htdocs\klinik\app\Controllers\Home.php(186): view('dokter', NULL)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\Home->dokter()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

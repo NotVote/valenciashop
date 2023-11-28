@@ -1,0 +1,188 @@
+CRITICAL - 2023-05-25 00:08:36 --> Undefined variable $tempat
+#0 C:\laragon\www\CIdonasi\app\Views\donasi\donasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 24)
+#1 C:\laragon\www\CIdonasi\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIdonasi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIdonasi\system\Common.php(1089): CodeIgniter\View\View->render('donasi/donasi', Array, true)
+#4 C:\laragon\www\CIdonasi\app\Controllers\Home.php(165): view('donasi/donasi', Array)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->donasi()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-25 00:08:36 --> Undefined variable $tempat
+#0 C:\laragon\www\CIdonasi\app\Views\donasi\donasi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 24)
+#1 C:\laragon\www\CIdonasi\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIdonasi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIdonasi\system\Common.php(1089): CodeIgniter\View\View->render('donasi/donasi', Array, true)
+#4 C:\laragon\www\CIdonasi\app\Controllers\Home.php(165): view('donasi/donasi', Array)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->donasi()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-25 00:30:07 --> syntax error, unexpected token "->", expecting ";"
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 00:30:07 --> syntax error, unexpected token "->", expecting ";"
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:05:07 --> Invalid argument supplied for foreach()
+#0 C:\laragon\www\CIdonasi\app\Views\donatur\input.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\CIdonasi\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIdonasi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIdonasi\system\Common.php(1089): CodeIgniter\View\View->render('donatur/input', Array, true)
+#4 C:\laragon\www\CIdonasi\app\Controllers\Home.php(198): view('donatur/input', Array)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->input_donatur()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-25 04:05:07 --> Invalid argument supplied for foreach()
+#0 C:\laragon\www\CIdonasi\app\Views\donatur\input.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\CIdonasi\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIdonasi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIdonasi\system\Common.php(1089): CodeIgniter\View\View->render('donatur/input', Array, true)
+#4 C:\laragon\www\CIdonasi\app\Controllers\Home.php(198): view('donatur/input', Array)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->input_donatur()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-25 04:23:24 --> Unknown column 'email' in 'field list'
+ERROR - 2023-05-25 04:23:40 --> Unknown column 'email' in 'field list'
+ERROR - 2023-05-25 04:23:40 --> Duplicate entry '4242423' for key 'donatur.NIK'
+ERROR - 2023-05-25 04:24:27 --> Duplicate entry '4242423' for key 'donatur.NIK'
+ERROR - 2023-05-25 04:25:00 --> Duplicate entry '4242423' for key 'donatur.NIK'
+CRITICAL - 2023-05-25 04:27:31 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:27:31 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:27:41 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:27:42 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:29:10 --> syntax error, unexpected '$userid' (T_VARIABLE)
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 04:29:11 --> syntax error, unexpected '$userid' (T_VARIABLE)
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/actinput_d...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/actinput_d...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-25 04:29:34 --> Duplicate entry '31231' for key 'donatur.NIK'
+ERROR - 2023-05-25 04:30:46 --> Operand should contain 1 column(s)
+CRITICAL - 2023-05-25 07:55:11 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CIdonasi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CIdonasi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-25 07:55:12 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\CIdonasi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CIdonasi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\CIdonasi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\CIdonasi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-05-25 07:56:33 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2023-05-25 07:56:33 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(265): App\Models\M_model->fusionArray('users', 'donatur', 'donatur.user_id...', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->edit_donatur('1')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-25 07:56:33 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2023-05-25 07:56:33 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(265): App\Models\M_model->fusionArray('users', 'donatur', 'donatur.user_id...', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->edit_donatur('1')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-25 07:57:04 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2023-05-25 07:57:04 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(265): App\Models\M_model->fusionArray('users', 'donatur', 'users.user_id=d...', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->edit_donatur('1')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-25 07:57:04 --> Column 'user_id' in where clause is ambiguous
+CRITICAL - 2023-05-25 07:57:04 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(265): App\Models\M_model->fusionArray('users', 'donatur', 'users.user_id=d...', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->edit_donatur('1')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-05-25 08:26:15 --> Column 'username' cannot be null
+CRITICAL - 2023-05-25 08:37:18 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_tempa...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_tempa...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 08:37:19 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\laragon\www\CIdonasi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/edit_tempa...')
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/edit_tempa...')
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 08:46:59 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\laragon\www\CIdonasi\app\Controllers\Home.php on line 418 and exactly 3 expected
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(418): App\Models\M_model->edit('tempat', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->actedit_tempat()
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 08:46:59 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\laragon\www\CIdonasi\app\Controllers\Home.php on line 418 and exactly 3 expected
+#0 C:\laragon\www\CIdonasi\app\Controllers\Home.php(418): App\Models\M_model->edit('tempat', Array)
+#1 C:\laragon\www\CIdonasi\system\CodeIgniter.php(832): App\Controllers\Home->actedit_tempat()
+#2 C:\laragon\www\CIdonasi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIdonasi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIdonasi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

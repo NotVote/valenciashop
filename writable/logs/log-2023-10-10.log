@@ -1,0 +1,40 @@
+ERROR - 2023-10-10 19:58:58 --> Table 'kebun.kamar' doesn't exist
+ERROR - 2023-10-10 19:59:09 --> Table 'kebun.kamar' doesn't exist
+ERROR - 2023-10-10 20:01:25 --> Table 'kebun.kamar' doesn't exist
+ERROR - 2023-10-10 20:04:41 --> Table 'kebun.kamar' doesn't exist
+ERROR - 2023-10-10 20:55:04 --> Unknown column 'nama_tipe' in 'field list'
+ERROR - 2023-10-10 21:01:25 --> Unknown column 'id_tipe' in 'where clause'
+CRITICAL - 2023-10-10 21:01:25 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(310): App\Models\M_model->getRow('kandang', Array)
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->edit_kandang('2')
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:37:48 --> syntax error, unexpected '$where' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\kebun\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tipe')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tipe')
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:38:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\kebun\app\Controllers\Home.php(380): App\Models\M_model->getarray_f('tipe', NULL)
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->tambah_tipe()
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:40:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kebun\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kebun\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kebun\app\Controllers\Home.php(380): CodeIgniter\Model->__call('orderBy', Array)
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(832): App\Controllers\Home->tambah_tipe()
+#4 C:\xampp\htdocs\kebun\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-15 08:25:33 --> Cannot redeclare App\Models\M_model::join()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-10-15 08:42:17 --> Column 'tipe_hewan' cannot be null
+CRITICAL - 2023-10-15 08:55:01 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\kebun\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\xampp\htdocs\kebun\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\xampp\htdocs\kebun\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kebun\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kebun\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kebun\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

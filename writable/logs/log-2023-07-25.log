@@ -1,0 +1,75 @@
+ERROR - 2023-07-25 07:14:19 --> Unknown column 'tanggal_pemakaian' in 'field list'
+ERROR - 2023-07-25 07:21:18 --> Unknown column 'guru' in 'field list'
+CRITICAL - 2023-07-25 07:50:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(241): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('3')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-25 07:53:48 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(241): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('3')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-25 07:53:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\in\app\Views\rombel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\in\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\in\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\in\system\Common.php(1089): CodeIgniter\View\View->render('rombel', Array, true)
+#4 C:\xampp\htdocs\in\app\Controllers\Home.php(199): view('rombel', Array)
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#6 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-25 07:54:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(241): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('3')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-25 07:56:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(242): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('1')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-25 08:00:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\in\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\in\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\in\app\Controllers\Home.php(242): CodeIgniter\Model->__call('getArrow', Array)
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('1')
+#4 C:\xampp\htdocs\in\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-25 09:24:12 --> Cannot redeclare App\Controllers\Home::excel_barang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-25 20:38:23 --> Multiple access type modifiers are not allowed
+#0 C:\xampp\htdocs\in\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_p')
+#1 C:\xampp\htdocs\in\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_p')
+#2 C:\xampp\htdocs\in\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\in\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\in\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\in\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
